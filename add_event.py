@@ -21,7 +21,7 @@ def add_event(title, release_date, rating = None):
     'description': rating,
     'backgroundColor': 'Tomato',
     'foregroundColor': 'Tomato',
-    'colorId': '11',
+    'colorId': 11,
     'start': {
       'dateTime': (release_date + relativedelta(hours=16)).isoformat() + 'Z',
       'timeZone': 'America/Chicago',

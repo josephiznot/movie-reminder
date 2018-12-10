@@ -5,7 +5,7 @@ from datetime import datetime
 
 if __name__ == '__main__':
   count = 0
-  for movie in movies.scrape_movies()[0:1]:
+  for movie in movies.scrape_movies():
     if datetime.now().strftime('%b') in movie.release_date:
       count = count + 1
       add_event(movie.title,
