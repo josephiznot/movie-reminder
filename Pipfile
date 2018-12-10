@@ -9,6 +9,7 @@ requests = "*"
 selenium = "*"
 google-api-python-client = "*"
 "oauth2client" = "*"
+python-dateutil = "*"
 
 [dev-packages]
 
